@@ -70,7 +70,7 @@ public class Project {
 	@Override
 	public String toString() {
 		return "Project [pId=" + pId + ", pName=" + pName + ", pCompanyName="
-				+ pCompanyName + ", empList=" + empList + "]";
+				+ pCompanyName + "]";
 	}
 
 	public Project(int pId, String pName, String pCompanyName) {

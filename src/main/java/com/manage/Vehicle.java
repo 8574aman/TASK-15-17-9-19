@@ -28,6 +28,14 @@ public class Vehicle {
 	@ManyToOne
 	private Emp emp;
 
+	@Override
+	public String toString() {
+		return "Vehicle [regno=" + regno + ", brand=" + brand + ", model="
+				+ model + ", price=" + price +  "]";
+	}
+
+
+
 	public Vehicle(int regno, String brand, String model, int price, Emp emp) {
 		super();
 		this.regno = regno;
